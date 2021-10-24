@@ -20,14 +20,14 @@ title                    : "JAE KWAN MEMORY"
 title_separator          : "|"
 subtitle                 : 나아감에 망설임 없이
 name                     : "JaeKwan Song"
-description              : "열정이 담긴 기술 블로그 입니다."
+description              : "열정이 담긴 기술 블로그"
 url                      : "https://BDJaeKwan.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : "/assets/images/uplogo.gif"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
-# breadcrumbs            : false # true, false (default)
+breadcrumbs            : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "staticman", "staticman_v2", "utterances", "custom"
@@ -110,7 +110,7 @@ author:
   name             : "JaeKwan Song"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "**열정**이 담긴 기술 블로그 입니다."
-  location         : "South Korea Cheonan-si"
+  location         : "South Korea Cheonan"
   email            : "thdworhks1234@naver.com"
   links:
     - label: "Email"
@@ -292,3 +292,4 @@ defaults:
       comments: # true
       share: true
       related: true
+      show_date: true
